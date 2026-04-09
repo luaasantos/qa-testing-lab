@@ -1,0 +1,23 @@
+{
+  "name": "qa-manual-tests",
+  "version": "1.0.0",
+  "description": "Este repositório reúne estudos e práticas de *testes manuais de software*, com foco em qualidade, validação de regras de negócio e mitigação de riscos em aplicações web.",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "node scripts/generateCoverage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luaasantos/qa-manual-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luaasantos/qa-manual-tests/issues"
+  },
+  "homepage": "https://github.com/luaasantos/qa-manual-tests#readme",
+  "devDependencies": {
+    "cypress": "^15.11.0"
+  }
+}
