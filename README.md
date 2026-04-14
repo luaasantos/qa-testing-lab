@@ -8,7 +8,7 @@ O projeto simula um ambiente próximo ao dia a dia de times de tecnologia, inclu
 
 ---
 
-👩‍💻 Sobre mim
+💜 Sobre mim
 
 Sou formada em Análise e Desenvolvimento de Sistemas, com experiência prévia como desenvolvedora e atuação prática em testes manuais de software, participando de rotinas de validação, homologação e suporte à implantação de sistemas.
 
@@ -57,6 +57,39 @@ A automação começou pelos cenários mais críticos da aplicação, como o flu
 Essa etapa surgiu após minha participação em um bootcamp de automação de testes, onde tive contato com ferramentas modernas e práticas de QA Engineering.
 
 A automação continuará evoluindo com novos cenários do sistema.
+
+---
+
+🚀 Como executar o projeto 
+
+📌 Pré-requisitos
+
+- Node.js instalado (versão 16 ou superior)
+- Git instalado
+
+📥 Clonar o repositório
+
+git clone https://github.com/seu-usuario/seu-repo.git
+
+cd nome-do-repo
+
+📦 Instalar dependências
+
+npm install
+
+▶️ Executar os testes
+
+Modo interativo (Cypress aberto)
+
+npx cypress open
+
+Modo headless (via terminal)
+
+npx cypress run
+
+📊 Executar script de coverage
+
+npm run coverage
 
 ---
 
