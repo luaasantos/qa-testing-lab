@@ -1,4 +1,15 @@
-🧪 QA Testing Lab
+## 🚀 Tecnologias e Abordagens
+![Cypress](https://img.shields.io/badge/Cypress-E2E%20Testing-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-brightgreen)
+![BDD](https://img.shields.io/badge/BDD-Gherkin-blue)
+![Cucumber](https://img.shields.io/badge/Cucumber-Integration-green)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
+![Status](https://img.shields.io/badge/Status-Em%20evolução-yellow)
+
+
+## 🧪 QA Testing Lab
 
 Este repositório reúne estudos e práticas de Qualidade de Software, inicialmente focados em testes manuais, evoluindo gradualmente para automação de testes e organização de artefatos de QA.
 
@@ -8,7 +19,7 @@ O projeto simula um ambiente próximo ao dia a dia de times de tecnologia, inclu
 
 ---
 
-💜 Sobre mim
+## 💜 Sobre mim
 
 Sou formada em Análise e Desenvolvimento de Sistemas, com experiência prévia como desenvolvedora e atuação prática em testes manuais de software, participando de rotinas de validação, homologação e suporte à implantação de sistemas.
 
@@ -18,7 +29,7 @@ Atualmente estou aprofundando meus conhecimentos em automação de testes, mante
 
 ---
 
-🧩 Contexto do sistema testado
+## 🧩 Contexto do sistema testado
 
 Parte dos testes deste projeto utiliza o ParaBank, uma aplicação web bancária de demonstração amplamente utilizada para prática de testes.
 
@@ -35,7 +46,7 @@ Esses cenários permitem exercitar validações importantes como regras de negó
 
 ---
 
-🔍 Tipos de testes abordados
+## 🔍 Tipos de testes abordados
 
 Neste repositório são exploradas diferentes abordagens de QA:
 
@@ -48,7 +59,7 @@ Neste repositório são exploradas diferentes abordagens de QA:
 
 ---
 
-🤖 Automação de Testes
+## 🤖 Automação de Testes
 
 Com a evolução do projeto, foi iniciada a automação de testes utilizando Cypress.
 
@@ -60,7 +71,7 @@ A automação continuará evoluindo com novos cenários do sistema.
 
 ---
 
-🚀 Como executar o projeto 
+## 🚀 Como executar o projeto 
 
 📌 Pré-requisitos
 
@@ -68,35 +79,35 @@ A automação continuará evoluindo com novos cenários do sistema.
 - Git instalado
 
 📥 Clonar o repositório
-
+```bash
 git clone https://github.com/seu-usuario/seu-repo.git
 
 cd nome-do-repo
-
+```
 📦 Instalar dependências
-
+```bash
 npm install
-
+```
 ▶️ Executar os testes
 
 Modo interativo (Cypress aberto)
-
+```bash
 npx cypress open
-
+```
 Modo headless (via terminal)
-
+```bash
 npx cypress run
-
+```
 📊 Executar script de coverage
-
+```bash
 npm run coverage
-
+```
 ---
 
-📂 Estrutura do repositório
+## 📂 Estrutura do repositório
 
 O projeto está organizado para refletir um fluxo real de trabalho em QA:
-
+```bash
 qa-testing-lab
 │
 ├── 01-plano-de-teste
@@ -116,12 +127,12 @@ qa-testing-lab
 ├── cypress.config.js
 ├── package.json
 └── README.md
-
+```
 Essa estrutura permite separar claramente documentação de QA, execução de testes e automação.
 
 ---
 
-🛠️ Stack e conhecimentos aplicados
+## 🛠️ Stack e conhecimentos aplicados
 
 Durante o desenvolvimento deste projeto foram aplicados conhecimentos como:
 
@@ -137,10 +148,10 @@ Durante o desenvolvimento deste projeto foram aplicados conhecimentos como:
 
 ---
 
-🚀 Evolução do projeto
+## 🚀 Evolução do projeto
 
 Este repositório representa um laboratório de prática em QA, demonstrando a evolução natural de atividades de qualidade de software:
-
+```bash
 Testes Manuais
 ↓
 Estruturação de documentação de QA
@@ -150,10 +161,10 @@ Testes exploratórios e registro de bugs
 Automação de cenários críticos com Cypress
 ↓
 Expansão gradual da cobertura automatizada
-
+```
 ---
 
-🌱 Próximos passos
+## 🌱 Próximos passos
 
 Entre as evoluções planejadas para o projeto estão:
 
