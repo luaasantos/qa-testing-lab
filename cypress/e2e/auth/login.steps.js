@@ -1,7 +1,9 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 Given("que o usuario está na página de login do ParaBank", () => {
-
+  
+  cy.clearCookies();
+  cy.clearLocalStorage();
   cy.visit("https://parabank.parasoft.com/parabank/index.htm")
 });
 
@@ -35,6 +37,12 @@ Then("redirecionar para a página inicial", () => {
   cy.url().should("include", "overview");
 });
 
-Then("deve visualizar mensagem de erro", () => {
-  cy.contains("The username and password could not be verified.").should("be.visible");
+Then("deve visualizar mensagem de erro de autenticação", () => {
+  cy.contains("Could not be verified", { timeout: 5000 }).should("be.visible");
+
 }); 
+
+Then("deve visualizar mensagem de erro de campos obrigatórios", () => {
+  cy.contains("Please enter a username and password", { timeout: 5000 }).should("be.visible");
+});
+

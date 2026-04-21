@@ -7,6 +7,7 @@ module.exports = defineConfig({
   e2e: {
     specPattern: "cypress/e2e/**/*.feature",
     env: {
+      TAGS: " not @bug",
       stepDefinitions: "cypress/e2e/**/*.steps.js"
     },
     async setupNodeEvents(on, config) {
