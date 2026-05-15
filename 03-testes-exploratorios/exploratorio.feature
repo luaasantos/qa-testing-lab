@@ -1,35 +1,51 @@
-Exploratório Cadastro
+1. Autenticação (Login / Logout / Cadastro)
+Cenários:
+Cadastro de novo usuário (happy path)
+Login com sucesso
+Login inválido (senha errada)
+Campos obrigatórios
+Logout
 
-Objetivo
-Validar se o fluxo de cadastro se comporta corretamente diante de entradas inesperadas e situações reais de uso.
+2. Gerenciamento de Perfil
+Depois que o usuário entra:
+Cenários:
+Atualizar informações pessoais
+Alterar senha
+Validar persistência dos dados
 
-1. Entrada de dados
-Testar comportamentos comuns de usuário:
-- Inserir espaços antes e depois dos campos
-- Copiar e colar dados ao invés de digitar
-- Informar e-mail com letras maiúsculas
-- Informar CPF formatado e sem formatação
-- Tentar cadastrar com e-mail já existente
-- Corrigir campo após erro e reenviar.
+Contas (Accounts Overview)
+Cenários:
+Visualizar contas existentes
+Validar saldo exibido
+Acessar detalhes da conta
 
-2. Tentativas de quebra
-Testar resistência básica:
-- Clicar várias vezes no botão cadastrar
-- Atualizar a página durante envio
-- Abrir duas abas e cadastrar simultaneamente
-- Voltar a página após cadastro concluído
-- Perder conexão durante envio
+4. Transferência de Fundos (Transfer Funds)
+Cenários:
+Transferência com sucesso
+Transferência com saldo insuficiente
+Validação de mensagem de confirmação
 
-3. Experiência do usuário
-Avaliar comportamento visual:
-- Mensagem de erro clara
-- Campo inválido destacado
-- Erro some após correção
-- Foco vai para o campo com erro
-- Não perde dados ao falhar
+5. Pagamento de Contas (Bill Pay)
+Cenários:
+Pagamento com sucesso
+Campos obrigatórios
+Dados inválidos
 
-4. Ambiente
-Testes rápidos de contexto:
-- Navegador anônimo
-- Tela mobile
-- Rede lenta
+6. Histórico de Transações
+Cenários:
+Visualizar histórico
+Validar transações exibidas
+Filtro por conta
+
+7. Abertura de Nova Conta (Open New Account)
+Cenários:
+Criar nova conta
+Validar criação
+Validar ID da conta
+
+Observação:
+Validações Negativas (ESSENCIAL)
+Cenários:
+Campos vazios
+Dados inválidos
+mensagens de erro
